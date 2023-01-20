@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.id.and.deteksibibitudang.MainActivity"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ImgViewCrabBefore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:maxWidth="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:id="@+id/ImgViewCrab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:maxWidth="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/ImgViewCrabBiner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/CmdCameraOpen"
+            android:layout_toRightOf="@+id/CmdCameraOpen"
+            android:adjustViewBounds="true"
+            android:maxWidth="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/txtJumlahUdang"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff" />
+
+        <Button
+            android:id="@+id/CmdCameraOpen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="Capture Mode"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginBottom="22dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="Real Time Mode"
+            android:id="@+id/CmdOpenBlobDetection"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+    </LinearLayout>
+</ScrollView>

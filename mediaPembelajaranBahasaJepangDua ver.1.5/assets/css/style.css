@@ -1,0 +1,493 @@
+@media only screen and (min-width: 800px) and (max-width: 2000px) 
+{
+body {
+	background-color:#ffffff;
+	margin:0;	
+}
+#headerBanner{
+	border-top:1px solid #03274B;
+	background-color:#03274B;
+	width:100%;
+	border-bottom:1px solid #03274B;
+}
+#wrapperTopRow1 {
+	font-size:20px;
+	color:#F8F8F2;
+	font-family: Georgia;
+	margin:0 auto;
+	width:1170px;
+	background-color:#03274B;	
+}
+#headerTopRow1 h1 {
+	font-size:40px;
+	margin-bottom:7px;
+}
+#headerTopRow1 p {
+	color:#5F8EC2;
+	margin-top:0px;
+	padding-top:0px;
+}
+#headerNavRow1 {
+	background-color: #072C53;
+	border-top: 1px solid #2B4D71;
+	border-bottom: 1px solid #2B4D71;
+	width:1170px;
+	height:40px;
+	margin:0 auto;	
+}
+#headerNavRow1X{
+	background-color: #072C53;
+	border-top: 1px solid #2B4D71;
+	border-bottom: 1px solid #2B4D71;
+	width:100%;
+	height:40px;
+	margin:0 auto;	
+}
+#headerNavRow1 ul {
+	width:1170px;
+	padding-top:0;
+	margin-top:0;
+	list-style:none;	
+}
+#headerNavRow1 li {
+	width:120px;
+	height:30px;
+	padding-top:14px;
+	margin-top:0;
+	display:block;
+	float:left;
+	margin-right:40px;
+	text-transform:uppercase;
+	font-size:12px;	
+}
+li.active a, li:hover a {
+	color: #5F8EC2;
+	background: url("assets/images/topnav_a.gif") top center no-repeat #072C53;
+	padding-top:14px;	
+}
+li a {
+	color:#F8F9F3;
+	text-decoration:none;
+}
+#wrapperSlider {
+	background-color:#04182f;
+	height:140px;
+	width:100%;
+	border-bottom: 4px solid #2B4D71;
+	padding-top:30px;
+}
+#slider {
+	margin:0 auto;
+	width:1170px;
+	height:380px;
+	padding-top:30px;
+}
+#contentWrapper {
+	background-color: #ffffff;
+	width:1170px;
+	height:auto;
+	margin:auto;
+	margin-top:10px;	
+}
+#contentIndex {
+	width:100%;
+	height:400px;
+	padding-top:70px;
+	background-color: #ffffff;
+	padding-bottom:10px;
+	float:left;
+}
+#contentKami {
+	width:100%;
+	height:auto;
+	padding-top:70px;
+	background-color: #ffffff;
+	padding-bottom:10px;
+	padding-left:30px;
+}
+#contentKiri {
+	width:70%;
+	float:left;
+	padding-top:20px;
+}
+#contentKiri h4{
+	border-bottom:5px solid #8199A9;
+	padding-top:20px;
+	text-transform:uppercase;
+	color:#8199A9;
+	padding-bottom:4px;
+}
+#contentKiri p{
+	padding-top:0px;
+	color:#8199A9;
+	padding-bottom:0px;
+	font-size:14px;
+	color:#777777;
+	text-align:left;
+}
+#contentKanan {
+	width:20%;
+	float:right;
+	padding-top:20px;
+}
+#contentKanan h4{
+	border-bottom:5px solid #8199A9;
+	padding-top:20px;
+	text-transform:uppercase;
+	color:#8199A9;
+	padding-bottom:4px;
+}
+#contentKanan p{
+	padding-top:0px;
+	color:#8199A9;
+	padding-bottom:0px;
+	font-size:14px;
+	color:#777777;
+	text-align:left;
+}
+#contentKiriBawah {
+	width:49%;
+	float:left;
+	padding-bottom:20px;
+}
+#contentKiriBawah h4{
+	border-bottom:5px solid #8199A9;
+	padding-top:20px;
+	text-transform:uppercase;
+	color:#8199A9;
+	padding-bottom:4px;
+}
+#contentKiriBawah p{
+	padding-top:0px;
+	color:#8199A9;
+	padding-bottom:0px;
+	font-size:14px;
+	color:#777777;
+	text-align:left;
+}
+#contentKananBawah {
+	width:40%;
+	float:right;
+}
+#contentKananBawah h4{
+	border-bottom:5px solid #8199A9;
+	padding-top:20px;
+	text-transform:uppercase;
+	color:#8199A9;
+	padding-bottom:4px;
+}
+#contentKananBawah p{
+	padding-top:0px;
+	color:#8199A9;
+	padding-bottom:0px;
+	font-size:14px;
+	color:#777777;
+	text-align:left;
+}
+#wrapperFooter {
+	width:100%;	
+	padding-top:2px;
+	height:2px;
+	background-color:#03274B;
+	float:left;
+}
+#footerRow1 {
+	width:100%;
+	border-top:2px solid #ffffff;
+	height:70px;
+	background-color:#03274B;
+}
+#footerRow2Wrapper {
+	width:100%;
+	height:51px;
+	background-color:#03274B;
+}
+#footerRow2 {
+	width:1170px;
+	height:50px;
+	background-color:#03274B;
+	margin:0 auto;
+	border-top:1px solid #5F8EC2;
+}
+#footerRow2 p {
+	color:#5F8EC2;	
+}
+#tulisanKiriFooter {
+	float:left;	
+}
+#tulisanKananFooter {
+	float:right;
+}
+}
+
+@media only screen and (min-width: 450px) and (max-width: 640px) 
+{
+body {
+	background-color:#ffffff;
+	margin:0;	
+}
+#headerBanner{
+	border-top:1px solid #03274B;
+	background-color:#03274B;
+	width:100%;
+	border-bottom:1px solid #03274B;
+}
+#wrapperTopRow1 {
+	font-size:8px;
+	color:#F8F8F2;
+	font-family: Georgia;
+	margin:0 auto;
+	width:290px;
+	background-color:#03274B;	
+}
+#headerTopRow1 h1 {
+	font-size:10px;
+	margin-bottom:7px;
+}
+#headerTopRow1 p {
+	color:#5F8EC2;
+	margin-top:0px;
+	padding-top:0px;
+}
+#headerNavRow1 {
+	background-color: #072C53;
+	border-top: 1px solid #2B4D71;
+	border-bottom: 1px solid #2B4D71;
+	width:auto;
+	height:50px;
+	}
+#headerNavRow1 ul {
+	width:100%;
+	padding-left:75px;
+	margin-left:0;
+	list-style:none;
+}
+#headerNavRow1 li {
+	width:40px;
+	height:30px;
+	padding-top:14px;
+	margin-top:0;
+	display:block;
+	float:left;
+	margin-right:30px;
+	text-transform:uppercase;
+	font-size:10px;	
+}
+li.active a, li:hover a {
+	color: #5F8EC2;
+	background: url("assets/images/topnav_a.gif") top center no-repeat #072C53;
+	padding-top:14px;	
+}
+li a {
+	color:#F8F9F3;
+	text-decoration:none;
+}
+#wrapperSlider {
+	background-color:#04182f;
+	height:100px;
+	width:100%;
+	border-bottom: 4px solid #2B4D71;
+	padding-top:30px;
+}
+#slider {
+	margin:0 auto;
+	width:290px;
+	height:170px;
+	padding-top:30px;
+}
+#contentWrapper {
+	background-color: #ffffff;
+	width:290px;	
+	margin:40 auto;
+	padding-bottom:40px;
+}
+#contentKiri h4{
+	border-bottom:5px solid #8199A9;
+	padding-top:20px;
+	text-transform:uppercase;
+	color:#8199A9;
+	
+}
+#contentKiri p{
+	padding-top:0px;
+	color:#8199A9;
+	padding-bottom:0px;
+	font-size:14px;
+	color:#777777;
+	text-align:left;
+}
+#wrapperFooter {
+	width:100%;
+	padding-top:2px;
+	height:2px;
+	background-color:#03274B;
+
+}
+#footerRow1 {
+	width:100%;
+	border-top:2px solid #ffffff;
+	height:70px;
+	background-color:#03274B;
+}
+#footerRow2Wrapper {
+	width:100%;
+	height:71px;
+	background-color:#03274B;
+}
+#footerRow2 {
+	width:100%;
+	height:70px;
+	background-color:#03274B;
+	margin:0 auto;
+	border-top:1px solid #5F8EC2;
+}
+#footerRow2 p {
+	color:#5F8EC2;
+	font-size:10px;
+}
+#tulisanKiriFooter {
+	float:left;
+	
+}
+#tulisanKananFooter {
+	clear:both;
+	float:left;
+}
+}
+
+@media only screen and (min-width: 290px) and (max-width: 330px) 
+{
+body {
+	background-color:#ffffff;
+	margin:0;
+}
+#headerBanner{
+	border-top:1px solid #03274B;
+	background-color:#03274B;
+	width:100%;
+	border-bottom:1px solid #03274B;
+}
+#wrapperTopRow1 {
+	font-size:8px;
+	color:#F8F8F2;
+	font-family: Georgia;
+	margin:0 auto;
+	width:290px;
+	background-color:#03274B;	
+}
+#headerTopRow1 h1 {
+	font-size:10px;
+	margin-bottom:7px;
+}
+#headerTopRow1 p {
+	color:#5F8EC2;
+	margin-top:0px;
+	padding-top:0px;
+}
+#headerNavRow1 {
+	background-color: #072C53;
+	border-top: 1px solid #2B4D71;
+	border-bottom: 1px solid #2B4D71;
+	width:100%;
+	height:60px;
+	}
+#headerNavRow1 ul {
+	width:auto;
+	padding-left:25px;
+	margin-left:0;
+	list-style:none;
+}
+#headerNavRow1 li {
+	width:40px;
+	height:30px;
+	padding-top:14px;
+	margin-top:0;
+	display:block;
+	float:left;
+	margin-right:17px;
+	text-transform:uppercase;
+	font-size:10px;	
+}
+li.active a, li:hover a {
+	color: #5F8EC2;
+	background: url("assets/images/topnav_a.gif") top center no-repeat #072C53;
+	padding-top:14px;	
+}
+li a {
+	color:#F8F9F3;
+	text-decoration:none;
+}
+#wrapperSlider {
+	background-color:#04182f;
+	height:100px;
+	width:100%;
+	border-bottom: 4px solid #2B4D71;
+	padding-top:30px;
+}
+#slider {
+	margin:0 auto;
+	width:290px;
+	height:170px;
+	padding-top:30px;
+}
+#contentWrapper {
+	background-color: #ffffff;
+	width:290px;	
+	margin:40 auto;
+	padding-bottom:40px;
+}
+#contentKiri {
+}
+#contentKiri h4{
+	border-bottom:5px solid #8199A9;
+	padding-top:20px;
+	text-transform:uppercase;
+	color:#8199A9;
+	
+}
+#contentKiri p{
+	padding-top:0px;
+	color:#8199A9;
+	padding-bottom:0px;
+	font-size:14px;
+	color:#777777;
+	text-align:left;
+}
+#wrapperFooter {
+	width:100%;
+	padding-top:2px;
+	height:2px;
+	background-color:#03274B;
+
+}
+#footerRow1 {
+	width:100%;
+	border-top:2px solid #ffffff;
+	height:70px;
+	background-color:#03274B;
+}
+#footerRow2Wrapper {
+	width:100%;
+	height:71px;
+	background-color:#03274B;
+}
+#footerRow2 {
+	width:290px;
+	height:70px;
+	background-color:#03274B;
+	margin:0 auto;
+	border-top:1px solid #5F8EC2;
+}
+#footerRow2 p {
+	color:#5F8EC2;
+	font-size:10px;
+}
+#tulisanKiriFooter {
+	float:left;
+	
+}
+#tulisanKananFooter {
+	clear:both;
+	float:left;
+}
+}

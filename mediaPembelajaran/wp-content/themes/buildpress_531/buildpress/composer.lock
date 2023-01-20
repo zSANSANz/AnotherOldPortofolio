@@ -1,0 +1,183 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7bdbbdba47e74b6a778414aadc2e08d2",
+    "packages": [
+        {
+            "name": "mexitek/phpcolors",
+            "version": "v0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mexitek/phpColors.git",
+                "reference": "89bf30473a68dc8845e46e9db3e536b969e18c11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mexitek/phpColors/zipball/89bf30473a68dc8845e46e9db3e536b969e18c11",
+                "reference": "89bf30473a68dc8845e46e9db3e536b969e18c11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arlo Carreon",
+                    "homepage": "http://arlocarreon.com",
+                    "role": "creator"
+                }
+            ],
+            "description": "A series of methods that let you manipulate colors. Just incase you ever need different shades of one color on the fly.",
+            "homepage": "http://mexitek.github.com/phpColors/",
+            "keywords": [
+                "color",
+                "css",
+                "design",
+                "frontend",
+                "ui"
+            ],
+            "time": "2015-09-09T15:43:06+00:00"
+        },
+        {
+            "name": "proteusthemes/theme-registration-and-updates",
+            "version": "v1.2.3",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:proteusnet/theme-registration-and-updates.git",
+                "reference": "2a42965af55291e102615243b1f72f20f53ad42a"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ProteusThemes\\ThemeRegistration\\": "src/"
+                }
+            },
+            "description": "Composer package for theme registration and automatic updates",
+            "time": "2017-10-18T08:17:05+00:00"
+        },
+        {
+            "name": "proteusthemes/wp-customizer-utilities",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/proteusthemes/wp-customizer-utilities.git",
+                "reference": "3562737c5ea8928c0e250ddecbdba186b791e02a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/proteusthemes/wp-customizer-utilities/zipball/3562737c5ea8928c0e250ddecbdba186b791e02a",
+                "reference": "3562737c5ea8928c0e250ddecbdba186b791e02a",
+                "shasum": ""
+            },
+            "require": {
+                "mexitek/phpcolors": "^0.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ProteusThemes\\CustomizerUtils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Primoz Cigler",
+                    "email": "primoz@proteusnet.com"
+                },
+                {
+                    "name": "Gregor Capuder",
+                    "email": "gregor.capuder@proteusnet.com"
+                }
+            ],
+            "description": "Advanced WordPress customizer controls and settings for better user experience.",
+            "keywords": [
+                "control",
+                "customizer",
+                "proteusthemes",
+                "theme",
+                "wordpress",
+                "wp"
+            ],
+            "time": "2017-06-29T07:31:03+00:00"
+        },
+        {
+            "name": "tgmpa/tgm-plugin-activation",
+            "version": "2.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TGMPA/TGM-Plugin-Activation.git",
+                "reference": "c626d0d91fc8ef24916e809c7b79eeafab1c1cac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TGMPA/TGM-Plugin-Activation/zipball/c626d0d91fc8ef24916e809c7b79eeafab1c1cac",
+                "reference": "c626d0d91fc8ef24916e809c7b79eeafab1c1cac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "class-tgm-plugin-activation.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Griffin",
+                    "homepage": "http://thomasgriffinmedia.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Gary Jones",
+                    "homepage": "https://github.com/GaryJones",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Juliette Reinders Folmer",
+                    "homepage": "https://github.com/jrfnl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "TGM Plugin Activation is a PHP library that allows you to easily require or recommend plugins for your WordPress themes (and plugins).",
+            "homepage": "http://tgmpluginactivation.com",
+            "keywords": [
+                "activation",
+                "library",
+                "plugins",
+                "theme",
+                "wordpress"
+            ],
+            "time": "2016-05-19T15:46:51+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
